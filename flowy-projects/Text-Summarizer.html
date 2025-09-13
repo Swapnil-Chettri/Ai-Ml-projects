@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AI Text Summarizer</title>
+    </head>
+    <body>
+        <flowise-fullchatbot></flowise-fullchatbot>
+        <script type="module">
+            import Chatbot from 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js'
+            Chatbot.initFull({
+                chatflowid: 'dc170cdd-e8ee-4e4d-97b2-95f310228f53',
+                apiHost: 'http://localhost:3000'
+            })
+        </script>
+    </body>
+</html>
